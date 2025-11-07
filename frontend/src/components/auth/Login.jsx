@@ -155,7 +155,7 @@ export default function Login() {
 
           <div className="space-y-4">
             <a
-              href="http://localhost:8080/oauth2/authorization/google"
+              href="https://smart-retail-1-gr08.onrender.com/oauth2/authorization/google"
               className="social-button"
             >
               <GoogleIcon />
