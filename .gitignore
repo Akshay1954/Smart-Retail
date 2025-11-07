@@ -1,0 +1,24 @@
+# Global safety patterns (applies recursively)
+*.log
+*.tmp
+target/
+dist/
+node_modules/
+
+# Python cache (analytics)
+__pycache__/
+*.pyc
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Root env
+.env
+full_project_code.txt
+
+# Delegate to submodules
+!frontend/.gitignore
+!backend/.gitignore
